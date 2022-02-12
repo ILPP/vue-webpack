@@ -1,0 +1,42 @@
+// .prettierrc.js
+module.exports = {
+  //每行最多120个字符
+  printWidth: 120,
+  // 使用2个空格进行缩进
+  tabWidth: 2,
+  // 使用空格而不是缩进
+  useTabs: false,
+  // 行尾的分号
+  semi: true,
+  // 使用单引号
+  singleQuote: true,
+  // 只有在必要时才会引用对象的键
+  quoteProps: 'as-needed',
+  // 在jsx中使用双引号而不是单引号
+  jsxSingleQuote: false,
+  // 结尾没有逗号
+  trailingComma: 'all',
+  // 在支撑的开始和结束处需要空格
+  bracketSpacing: true,
+  // jsx的结束标记需要包装
+  bracketSameLine: false,
+  // 箭头函数参数需要括号，即使只有一个参数
+  arrowParens: 'always',
+  // 格式化文件的全部内容
+  rangeStart: 0,
+  rangeEnd: Infinity,
+  // 不需要写文件的开头@prettier
+  requirePragma: false,
+  // 无需在文件开头自动插入@prettier
+  insertPragma: false,
+  // 使用默认的中断条件
+  proseWrap: 'preserve',
+  // 根据显示样式决定是否中断html
+  htmlWhitespaceSensitivity: 'css',
+  // vue文件脚本和样式标记缩进
+  vueIndentScriptAndStyle: false,
+  // 新线的lf
+  endOfLine: 'lf',
+  // 嵌入代码的格式
+  embeddedLanguageFormatting: 'auto',
+};
