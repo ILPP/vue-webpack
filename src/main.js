@@ -4,6 +4,7 @@ import { Table, TableColumn } from 'element-ui';
 
 Vue.use(Table);
 Vue.use(TableColumn);
+console.log(111);
 
 new Vue({
   render: (h) => h(App),
